@@ -3,6 +3,8 @@
 1) Run scripts in /security-hibernate/src/main/sql in order.
 
 
+1.a) Check /security-hibernate/src/main/webapp/WEB-INF/spring/db-context.xml, to ensure that the user and password for the database are correects, also the port.
+
 2) Run application in the servlet container of your preference (Developed and tested in Apache Tomcat v8)
 
 
