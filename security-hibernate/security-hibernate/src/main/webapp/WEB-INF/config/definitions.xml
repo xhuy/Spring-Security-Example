@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ 
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="index" extends="defaultTemplate">
+		<put-attribute name="content" value="/WEB-INF/index.jsp" />
+	</definition>
+
+	<definition name="login" extends="defaultTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/login.jsp" />
+	</definition>
+
+	<definition name="controlPanel" extends="defaultTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/controlPanel.jsp" />
+	</definition>
+
+	<definition name="register" extends="defaultTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/register.jsp" />
+	</definition>
+	
+	<definition name="about" extends="defaultTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/about.jsp" />
+	</definition>
+
+	<definition name="403" extends="defaultTemplate">
+		<put-attribute name="menu" value="" />
+		<put-attribute name="content" value="/WEB-INF/error/403.jsp" />
+	</definition>
+	
+	<definition name="404" extends="defaultTemplate">
+		<put-attribute name="menu" value="" />
+		<put-attribute name="content" value="/WEB-INF/error/404.jsp" />
+	</definition>
+
+	<definition name="500" extends="defaultTemplate">
+		<put-attribute name="menu" value="" />
+		<put-attribute name="content" value="/WEB-INF/error/500.jsp" />
+	</definition>
+
+</tiles-definitions>
